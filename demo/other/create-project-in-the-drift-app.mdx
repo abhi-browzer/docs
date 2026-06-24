@@ -1,0 +1,114 @@
+---
+title: "Create Project in the Drift App"
+description: "Create a new project in the Drift App using a guided wizard that configures project basics, team members, permissions, integrations, notifications, milestones, and initial tasks. Use this workflow when starting a new collaborative project or initiative that requires structured planning and team coordination."
+---
+
+{/* Generated from a Browzer recording. Edits here may be overwritten on the next sync. */}
+
+The Drift App is a project management platform designed to help teams organize work through customizable templates, team collaboration, and integrated workflows. Creating a project establishes the foundation for your team's work—it defines the project structure (via templates like Kanban boards), invites collaborators, sets access controls, and initializes tracking features like milestones and tasks. This guided setup wizard walks you through each configuration step, ensuring your project is properly configured for your team's needs before you begin execution.
+
+## Prerequisites
+
+- Access to the Drift App at drift-gilt.vercel.app with an active account
+- Project name and description prepared (optional but recommended)
+- Email addresses of team members you plan to invite
+- Understanding of your project's privacy requirements (private vs. shared access)
+- Integration preferences identified (e.g., third-party tool connections)
+
+## Steps
+
+<Steps>
+  <Step title="Navigate to the Drift App by opening drift-gilt.vercel.app in your web browser.">
+  </Step>
+  <Step title="Step 2">
+    Click the Dashboard link to access your project summary, achievements, and quick actions.
+    Target element: `DashboardYour summary: todos, achievements, and quick actions.`
+    <Frame>
+      <img src="/images/browzer/create-project-in-the-drift-app/step-2.jpg" alt="Click the Dashboard link to access your project summary, achievements, and quick actions." />
+    </Frame>
+    <Tip>The Dashboard is your central hub for viewing all projects and accessing project management features.</Tip>
+  </Step>
+  <Step title="Step 3">
+    Click on 'Create a workspace' to begin the guided setup wizard for a new workspace.
+  </Step>
+  <Step title="Step 4">
+    Complete the workspace type step and click 'Continue →' to proceed to the Basics step.
+  </Step>
+  <Step title="Click in the 'Workspace name' text field to focus it for input.">
+  </Step>
+  <Step title="Type the workspace name 'Test Workspace' into the 'Workspace name' field.">
+  </Step>
+  <Step title="Click in the 'Description' text field to focus it for input.">
+  </Step>
+  <Step title="Type a description of your workspace into the 'Description' field.">
+  </Step>
+  <Step title="Step 9">
+    Click the 'Emerald' button to select this color as your workspace's visual identifier.
+  </Step>
+  <Step title="Click the 'Continue →' button to proceed to the Template selection step.">
+  </Step>
+  <Step title="Select the 'Kanban board' template by clicking its radio button.">
+  </Step>
+  <Step title="Click the 'Continue →' button to proceed to the Plan step.">
+  </Step>
+  <Step title="Step 13">
+    Click the 'Continue →' button to proceed to the Team step. The Free plan with 3 seats has been selected.
+  </Step>
+  <Step title="Step 14">
+    Click the 'Continue →' button to proceed to the Permissions step without adding team members.
+  </Step>
+  <Step title="Step 15">
+    Select the 'Private' permission level by clicking its radio button. This restricts visibility to only invited members.
+  </Step>
+  <Step title="Step 16">
+    Check the 'Allow guest comments' checkbox to enable users without a Drift account to comment on workspace tasks.
+  </Step>
+  <Step title="Click the 'Continue →' button to proceed to the Integrations step.">
+  </Step>
+  <Step title="Click the 'Continue →' button to proceed to the Notifications step.">
+  </Step>
+  <Step title="Click the 'Continue →' button to proceed to the Milestones step.">
+  </Step>
+  <Step title="Step 20">
+    Click the 'Continue →' button to proceed to the Tasks step without adding milestones.
+  </Step>
+  <Step title="Click the '+ Add task' button to begin adding an initial task to your workspace.">
+  </Step>
+  <Step title="Click in the task title field to focus it for input.">
+  </Step>
+  <Step title="Type the task name 'Initialize workspace setup' into the task title field.">
+  </Step>
+  <Step title="Step 24">
+    Click the 'Continue →' button to proceed to the Review step where you can verify all workspace settings before creation.
+  </Step>
+  <Step title="Step 25">
+    Click the 'Create workspace' button to finalize workspace creation with all configured settings.
+  </Step>
+</Steps>
+
+## Verify it worked
+
+<Check>Project creation wizard completes and displays a confirmation screen showing the project name, template type, and team members</Check>
+<Check>Project appears in your dashboard with the chosen template structure (e.g., Kanban board with To Do / In Progress / Done columns)</Check>
+<Check>Team members receive invitations and appear in the project's member list with assigned permissions</Check>
+<Check>Project settings reflect your configured choices: privacy level, guest comments enabled/disabled, integrations connected, and milestones/tasks listed</Check>
+
+## Troubleshooting
+
+<AccordionGroup>
+  <Accordion title="I completed the wizard but my project was created in a default 'Draft' project instead of as a new standalone project. What happened?">
+    This occurs when the project creation process encounters an error or incomplete submission. Verify that you clicked the final 'Create project' button on the Review step, not an intermediate 'Next' button. If the issue persists, check your browser console for errors and ensure your account has permission to create new projects. Contact support if the problem continues.
+  </Accordion>
+  <Accordion title="I see an error 'Failed to create Vercel project: Your Team encountered an unknown problem.' What should I do?">
+    This is a server-side error typically caused by temporary service issues or account-level restrictions. Retry the project creation after waiting a few minutes. If you still encounter the error, reach out to the Drift support team with your account details and the exact error message. This issue may affect multiple users simultaneously.
+  </Accordion>
+  <Accordion title="I cannot find the 'Add to Project' button or option when trying to add items to my new project. Where is it?">
+    Ensure you have completed the project creation wizard fully and the project has been saved. The 'Add to Project' option typically appears in task or item creation dialogs. If you do not see it, refresh the page or navigate away and back to the project dashboard to ensure the project is fully initialized.
+  </Accordion>
+  <Accordion title="When I try to add team members, their email addresses are not being recognized. What could be wrong?">
+    Verify that email addresses are spelled correctly and that team members have existing accounts in the Drift App or organization. Some systems require team members to activate their accounts before they can be assigned to projects. Confirm your organization's member management settings if you are an administrator.
+  </Accordion>
+  <Accordion title="The integration connection buttons did not work. How do I retry connecting integrations?">
+    If a 'Connect' button does not respond, you may have encountered a popup blocker or temporary service interruption. Disable popup blockers for drift-gilt.vercel.app and retry. You can also complete project creation and configure integrations afterward through the project settings—they are not mandatory to create the project.
+  </Accordion>
+</AccordionGroup>
