@@ -47,6 +47,16 @@
               "privacy",
               "terms"
             ]
+          },
+          {
+            "group": "Browzer",
+            "pages": [
+              "browzer/other/contact",
+              "browzer/other/update-settings",
+              "browzer/other/create-project-in-the-drift-app",
+              "browzer/other/complete-onboarding-task",
+              "browzer/other/create-todo"
+            ]
           }
         ]
       }
