@@ -55,7 +55,12 @@
               "browzer/other/update-settings",
               "browzer/other/create-project-in-the-drift-app",
               "browzer/other/complete-onboarding-task",
-              "browzer/other/create-todo"
+              "browzer/other/create-todo",
+              "demo/other/contact",
+              "demo/other/update-settings",
+              "demo/other/create-project-in-the-drift-app",
+              "demo/other/complete-onboarding-task",
+              "demo/other/create-todo"
             ]
           }
         ]
