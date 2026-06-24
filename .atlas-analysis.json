@@ -1,0 +1,57 @@
+{
+  "projectType": "saas",
+  "projectName": "Newtools",
+  "projectDescription": "A collection of free, browser-based utilities including a PDF-to-CSV converter, word counter, JSON formatter, URL parser, circular image cropper, and LinkedIn text formatter.",
+  "theme": "almond",
+  "primaryColor": "#506678",
+  "lightColor": "#eff6f7",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Tools",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works"
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              "tools/pdf-to-csv",
+              "tools/word-counter",
+              "tools/json-formatter",
+              "tools/url-parser",
+              "tools/circular-crop",
+              "tools/linkedin-text-formatter"
+            ]
+          },
+          {
+            "group": "Privacy & Legal",
+            "pages": [
+              "privacy",
+              "terms"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "PDF to CSV conversion (Standard free tier + AI-powered for scanned PDFs)",
+    "Word counter with character, sentence, paragraph, and reading-time stats",
+    "JSON formatter, validator, and minifier with real-time error detection",
+    "URL parser that breaks any URL into all its components",
+    "Circular image cropper with transparent PNG output, fully client-side",
+    "LinkedIn text formatter using Unicode for bold, italic, underline, and more",
+    "No sign-up required for most tools",
+    "Privacy-first: files and text are never stored or shared"
+  ],
+  "publicApiSurface": [
+    "PDF to CSV: POST /api/pdf-to-csv (Standard mode via pdfplumber, AI mode via NewTools AI)",
+    "All other tools run entirely client-side in the browser (no server API)"
+  ]
+}

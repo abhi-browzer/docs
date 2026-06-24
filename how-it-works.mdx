@@ -1,0 +1,35 @@
+---
+title: "How Newtools Works: Fast, Private, and Browser-Based"
+sidebarTitle: "How It Works"
+description: "Learn how Newtools keeps your data private, how browser-based processing works for most tools, and when a server is involved for PDF conversion."
+---
+
+Almost everything Newtools does happens inside your own browser tab. When you use a tool like Circular Crop, Word Counter, JSON Formatter, URL Parser, or LinkedIn Text Formatter, your data is processed locally on your device and never sent anywhere. The one exception is PDF to CSV (Standard mode), which sends your file to a backend for extraction — but even then, nothing is stored, logged, or retained once the result is returned to you.
+
+## Privacy by Default
+
+Newtools is designed so that sharing your data with us is the exception, not the rule. Client-side processing means the computations happen entirely within your browser using your device's own resources. There are no analytics hooks watching what you paste, no server receiving your images or text, and no user-content logs of any kind. Once you close the tab, nothing about what you did remains on our end. You're in full control of your data at every step.
+
+## Standard vs AI Mode
+
+PDF to CSV is the one tool that offers two distinct processing modes. The table below shows how they compare:
+
+| | Standard | AI-Powered |
+|---|---|---|
+| Engine | pdfplumber | NewTools AI |
+| Digital PDFs | ✓ | ✓ |
+| Scanned PDFs | ✗ | ✓ |
+| Sign-in required | No | Yes |
+| Daily limit | Unlimited | 3 free/day |
+
+**Standard mode** uses pdfplumber to extract tables and structured data from digitally created PDFs. It works well for most exported or text-layer PDFs and requires no account.
+
+**AI-Powered mode** uses the NewTools AI engine to interpret scanned documents, handwritten tables, and complex layouts that pdfplumber can't reliably parse. Because this mode consumes more compute resources, it requires a sign-in and is limited to 3 free conversions per day.
+
+## No Account Required
+
+The vast majority of Newtools — including every tool except AI-Powered PDF conversion — is available to you with zero friction. You don't create a profile, you don't verify an email, and you don't hand over any personal information. Just navigate to the tool you need and use it. The sign-in requirement for AI mode exists solely to enforce the daily usage limit fairly across all users, not to collect data about you.
+
+<Tip>
+  For standard PDF conversions and all other tools, just open the page and start using it — no account needed. Sign-in is only required when you choose AI-Powered mode for PDF to CSV.
+</Tip>

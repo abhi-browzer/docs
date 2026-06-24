@@ -1,0 +1,55 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "Newtools",
+  "theme": "almond",
+  "logo": {
+    "light": "https://media.brand.dev/43d6d233-56ae-40e1-be50-5bdb29aa03c5.svg",
+    "dark": "https://media.brand.dev/43d6d233-56ae-40e1-be50-5bdb29aa03c5.svg"
+  },
+  "favicon": "https://media.brand.dev/17992c8a-6fa4-4fe8-9403-bd24895e223d.svg",
+  "colors": {
+    "primary": "#506678",
+    "light": "#eff6f7"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Open Newtools",
+      "href": "https://newtools.space"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Tools",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "how-it-works"
+            ]
+          },
+          {
+            "group": "Tools",
+            "pages": [
+              "tools/pdf-to-csv",
+              "tools/word-counter",
+              "tools/json-formatter",
+              "tools/url-parser",
+              "tools/circular-crop",
+              "tools/linkedin-text-formatter"
+            ]
+          },
+          {
+            "group": "Privacy & Legal",
+            "pages": [
+              "privacy",
+              "terms"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

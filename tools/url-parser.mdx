@@ -1,0 +1,74 @@
+---
+title: "URL Parser: Break Any URL Into Its Components Instantly"
+sidebarTitle: "URL Parser"
+description: "Parse any URL into its individual components — protocol, hostname, path, query params, hash, and more. Free, browser-based, no sign-up required."
+---
+
+The URL Parser is a free, browser-based tool that breaks any URL down into its individual components the moment you paste it in. Whether you're debugging query parameters, inspecting an API endpoint, or just trying to understand a complex URL's structure, you get a clearly labeled breakdown of every part — each with its own copy button for convenience.
+
+## URL Components
+
+<CardGroup cols={2}>
+  <Card title="Protocol" icon="lock">
+    The scheme used by the URL, such as `https:`, `http:`, or `ftp:`.
+  </Card>
+  <Card title="Origin" icon="globe">
+    The full origin combining the protocol, hostname, and port (e.g. `https://example.com:8080`).
+  </Card>
+  <Card title="Hostname" icon="server">
+    The domain name or IP address of the host, without the port (e.g. `example.com`).
+  </Card>
+  <Card title="Port" icon="plug">
+    The port number if explicitly specified in the URL (e.g. `8080`). Left blank when using a default port.
+  </Card>
+  <Card title="Path" icon="folder">
+    The hierarchical path portion of the URL that follows the hostname (e.g. `/api/v1/users`).
+  </Card>
+  <Card title="Query Parameters" icon="list">
+    Each key-value pair from the query string displayed individually (e.g. `page=2`, `sort=asc`).
+  </Card>
+  <Card title="Hash / Fragment" icon="hash">
+    The fragment identifier that follows the `#` symbol, typically used for in-page anchors (e.g. `#section-2`).
+  </Card>
+  <Card title="Username & Password" icon="user">
+    The embedded credentials if present in the URL (e.g. `user:pass@host`). Displayed only when included.
+  </Card>
+</CardGroup>
+
+## How to Use
+
+<Steps>
+  <Step title="Open the tool">
+    Go to [https://newtools.space/url-parser](https://newtools.space/url-parser) in your browser — no installation or account needed.
+  </Step>
+  <Step title="Paste your URL">
+    Click into the input field and paste the URL you want to inspect. Make sure it includes a protocol prefix such as `https://` or `http://` — the parser needs this to correctly identify the URL's structure.
+  </Step>
+  <Step title="See the parsed breakdown instantly">
+    Every component of your URL is parsed and displayed in clearly labeled fields the moment you paste. Query parameters are split into individual key-value pairs so you can inspect each one separately.
+  </Step>
+  <Step title="Copy what you need">
+    Click the **copy icon** next to any individual field to copy just that component, or use the **Copy All** button to grab the complete breakdown in one action.
+  </Step>
+</Steps>
+
+<Note>
+  The URL must include a protocol prefix such as `https://` — without it, the parser cannot determine the URL structure and will not be able to extract components correctly.
+</Note>
+
+## FAQ
+
+<AccordionGroup>
+  <Accordion title="Does the URL need https://?">
+    Yes, your URL must start with a protocol prefix. The parser supports `https://`, `http://`, `ftp://`, and other standard schemes. Without a protocol, the parser cannot identify where the hostname begins and other components follow, so the breakdown won't work correctly.
+  </Accordion>
+  <Accordion title="Can I copy individual URL parts?">
+    Yes. Every parsed component has its own copy icon so you can grab just the piece you need — for example, copying only the path or a specific query parameter value — without selecting and copying manually. You can also use **Copy All** to copy the entire parsed breakdown at once.
+  </Accordion>
+  <Accordion title="What if my URL has special characters or encoding?">
+    The parser handles percent-encoded characters (e.g. `%20` for a space) as part of standard URL parsing. Encoded query parameter values are displayed as-is so you can see the raw encoded form. If you need to decode them, you can paste individual values into a URL decoder.
+  </Accordion>
+  <Accordion title="Is this free?">
+    Yes, the URL Parser is completely free to use. There are no ads, no account required, and no limits on how many URLs you can parse — just open the tool and start inspecting.
+  </Accordion>
+</AccordionGroup>
